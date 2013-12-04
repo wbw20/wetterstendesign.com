@@ -39,6 +39,16 @@ div.header > h1 {
   padding: 150px;
 }
 
+div.resume {
+  height: 300px;
+  background-color: #434343;
+  text-align: center;
+  padding-top: 75px;
+}
+
+div.resume > h3 {
+}
+
 .light {
   color: #F0F0F0;
 }
