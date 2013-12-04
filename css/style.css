@@ -25,8 +25,9 @@ h3 a:hover {
 }
 
 div.header {
-  height: 700px;
+  height: 500px;
   background-image: url('../img/canvas.jpg');
+  background-size: 100%;
   text-align: center;
 }
 
