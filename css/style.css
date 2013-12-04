@@ -49,6 +49,18 @@ div.resume {
 div.resume > h3 {
 }
 
+div.nav {
+  height: 50px;
+  background-color: #434343;
+  text-align: center;
+}
+
+div.projects {
+  height: 1500px;
+  background-color: #F0F0F0;
+  text-align: center;
+}
+
 .light {
   color: #F0F0F0;
 }
