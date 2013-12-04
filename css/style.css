@@ -6,9 +6,13 @@ h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
 
+h1 {
+  font-size: 64px;
+}
+
 div.header {
   height: 700px;
-  background-color: #F0F0F0;
+  background-image: url('../img/canvas.jpg');
   text-align: center;
 }
 
@@ -17,18 +21,17 @@ div.header > div {
 }
 
 div.header > h1 {
-  padding-top: 200px;
-  font-size: 64px;
+  padding: 200px;
 }
 
-light {
+.light {
   color: #F0F0F0;
 }
 
-dark {
+.dark {
   color: #434343;
 }
 
-green {
+.green {
   color: #78A300;
 }
