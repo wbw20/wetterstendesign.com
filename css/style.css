@@ -7,13 +7,17 @@ h1, h2, h3 {
 }
 
 div.header {
-  height: 1000px;
+  height: 700px;
   background-color: #F0F0F0;
   text-align: center;
 }
 
 div.header > div {
   background-color: #434343;
+}
+
+div.header > h1 {
+  padding-top: 200px;
 }
 
 light {
