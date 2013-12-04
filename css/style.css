@@ -10,6 +10,20 @@ h1 {
   font-size: 64px;
 }
 
+h3 a:link, a:visited {
+  text-decoration: none;
+  color: #434343;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+h3 a:hover {
+  text-decoration: none;
+  color: #003366;
+}
+
 div.header {
   height: 700px;
   background-image: url('../img/canvas.jpg');
@@ -21,7 +35,7 @@ div.header > div {
 }
 
 div.header > h1 {
-  padding: 200px;
+  padding: 150px;
 }
 
 .light {
