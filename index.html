@@ -4,6 +4,16 @@
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+      $(window).scroll(function(e){ 
+        var el = $('.nav'); 
+        if ($(this).scrollTop() > el.offset().top) {
+          el.addClass('fixed');
+        } else {
+          el.removeClass('fixed');
+        }
+      });
+    </script>
   </head>
   <body>
     <div class="header">

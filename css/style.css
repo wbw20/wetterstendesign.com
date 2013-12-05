@@ -55,6 +55,11 @@ div.nav {
   text-align: center;
 }
 
+div.fixed {
+  position: fixed;
+  top: 0px;
+}
+
 div.projects {
   height: 1500px;
   background-color: #F0F0F0;
