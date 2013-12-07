@@ -86,6 +86,18 @@ div.projects h2 {
   margin: 0px;
 }
 
+div.projects table {
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.projects td {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+}
+
 .light {
   color: #F0F0F0;
 }
