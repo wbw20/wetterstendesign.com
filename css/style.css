@@ -51,13 +51,14 @@ div.resume > h3 {
 
 div.nav {
   height: 50px;
+  width: 100%;
   background-color: #434343;
   text-align: center;
+  top: 0px;
 }
 
 div.fixed {
   position: fixed;
-  top: 0px;
 }
 
 div.projects {
