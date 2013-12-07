@@ -55,6 +55,7 @@ div.nav {
   background-color: #434343;
   text-align: center;
   top: 0px;
+  border-bottom: 8px solid #78A300;
 }
 
 div.fixed {
