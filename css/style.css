@@ -130,6 +130,19 @@ div.about img {
   margin-top: 100px;
 }
 
+div.skills {
+  height: 1000px;
+  background-color: #F0F0F0;
+  text-align: center;
+}
+
+div.skills h2 {
+  font-weight: 100;
+  font-size: 48;
+  padding-top: 100px;
+  margin: 0px;
+}
+
 div.contact {
   height: 800px;
   background-color: #78A300;
