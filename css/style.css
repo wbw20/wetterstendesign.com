@@ -116,9 +116,16 @@ div.project img {
 }
 
 div.about {
-  height: 1000px;
+  height: 900px;
   background-color: #434343;
   text-align: center;
+}
+
+div.about > div {
+  width: 1500px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.about h2 {
@@ -132,8 +139,8 @@ div.about h3 {
   display: inline-block;
   float: left;
   width: 500px;
-  text-align: left;
-  margin-top: 100px;
+  text-align: justify;
+  margin-top: 80px;
   margin-left: 100px;
   font-weight: 300;
 }
