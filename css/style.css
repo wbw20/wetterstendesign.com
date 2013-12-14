@@ -37,6 +37,12 @@ div.header > div {
 
 div.header > h1 {
   padding: 150px;
+  font-weight: 600;
+}
+
+div.header > h3 {
+  font-weight: 600;
+  font-size: 24;
 }
 
 div.resume {
