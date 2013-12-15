@@ -2,7 +2,7 @@ body {
   margin: 0px;
 }
 
-h1, h2, h3 {
+p, h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
 
@@ -179,12 +179,17 @@ div.skills_container {
   margin-right: auto;
 }
 
-div.graph {
-  height: 600px;
+div.skill {
+  height: 552px;
   width: 500px;
-  margin-top: 150px;
+  margin-top: 100px;
   margin-left: 100px;
   float: left;
+}
+
+div.graph {
+  height: 530px;
+  width: 500px;
   border-left: 2px solid #78A300;
   border-bottom: 2px solid #78A300;
 }
@@ -250,6 +255,35 @@ div.graph .ninety {
 
 div.graph .onehundred {
   width: 100%;
+}
+
+div.tick {
+  display: block;
+  width: 600px;
+}
+
+div.tick div {
+  height: 20px;
+  width: 122px;
+  float: left;
+  border-right: 2px solid #78A300;
+}
+
+div.labels {
+  display: block;
+  width: 600px;
+}
+
+div.labels div {
+  height: 20px;
+  width: 122px;
+  float: left;
+}
+
+div.labels div p {
+  float: right;
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
 }
 
 div.contact {
