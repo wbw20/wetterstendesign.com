@@ -12,14 +12,13 @@ h1 {
 
 h3 a:link, a:visited {
   text-decoration: none;
-  color: #434343;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
 
-h3 a:hover {
+div.header h3 a:hover {
   text-decoration: none;
   color: #003366;
 }
@@ -57,6 +56,7 @@ div.resume > h3 {
 }
 
 div.nav {
+  z-index: 2;
   height: 50px;
   width: 100%;
   background-color: #434343;
@@ -154,6 +154,11 @@ div.about img {
   margin-top: 100px;
 }
 
+div.about h3 a:hover {
+  text-decoration: none;
+  color: #78A300;
+}
+
 div.skills {
   height: 1000px;
   background-color: #F0F0F0;
@@ -165,6 +170,86 @@ div.skills h2 {
   font-size: 48;
   padding-top: 100px;
   margin: 0px;
+}
+
+div.skills_container {
+  width: 1300px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.graph {
+  height: 600px;
+  width: 500px;
+  margin-top: 150px;
+  margin-left: 100px;
+  float: left;
+  border-left: 2px solid #78A300;
+  border-bottom: 2px solid #78A300;
+}
+
+div.graph div {
+  background-color: #78A300;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+div.graph div h3 {
+  margin: 0px;
+  padding-top: 12px;
+  padding-left: 16px;
+}
+
+div.graph .ten {
+  width: 10%;
+  opacity: 0.3;
+}
+
+div.graph .twenty {
+  width: 20%;
+  opacity: 0.35;
+}
+
+div.graph .thirty {
+  width: 30%;
+  opacity: 0.4;
+}
+
+div.graph .forty {
+  width: 40%;
+  opacity: 0.45;
+}
+
+div.graph .fifty {
+  width: 50%;
+  opacity: 0.5;
+}
+
+div.graph .sixty {
+  width: 60%;
+  opacity: 0.6;
+}
+
+div.graph .seventy {
+  width: 70%;
+  opacity: 0.7;
+}
+
+div.graph .eighty {
+  width: 80%;
+  opacity: 0.8;
+}
+
+div.graph .ninety {
+  width: 90%;
+  opacity: 0.9;
+}
+
+div.graph .onehundred {
+  width: 100%;
 }
 
 div.contact {
