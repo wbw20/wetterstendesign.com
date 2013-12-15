@@ -180,11 +180,15 @@ div.skills_container {
 }
 
 div.skill {
-  height: 552px;
+  height: 602px;
   width: 500px;
   margin-top: 100px;
   margin-left: 100px;
   float: left;
+}
+
+div.skill h3 {
+  height: 50px;
 }
 
 div.graph {
