@@ -398,6 +398,10 @@ div.main {
   padding-top: 100px;
 }
 
+div.main-lrg {
+  height: 1100px;
+}
+
 div.main > h1 {
   font-weight: 100;
 }
