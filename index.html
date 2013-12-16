@@ -17,6 +17,10 @@
            return false;
           });
         });
+
+        $('#survey').click(function() {
+          this.remove();
+        })
       });
 
       $(window).scroll(function(e){ 
@@ -30,8 +34,11 @@
     </script>
   </head>
   <body>
-    <a href="https://docs.google.com/a/case.edu/forms/d/1tvBvFkZuPvpXIYOYy8uye0-qRBHr5JO1i8aj8sK04eE/viewform" target="_blank">
+    <a id="survey" href="https://docs.google.com/a/case.edu/forms/d/1tvBvFkZuPvpXIYOYy8uye0-qRBHr5JO1i8aj8sK04eE/viewform" target="_blank">
       <div class="survey">
+        <h3 class="light">
+          ENGR 398 people click here
+        </h3>
       </div>
     </a>
     <div id="home" class="header">

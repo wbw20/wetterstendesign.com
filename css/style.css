@@ -28,8 +28,12 @@ div.survey {
   left: 0px;
   height: 150px;
   width: 70px;
-  background-color: red;
+  background-color: #003366;
   cursor: pointer;
+}
+
+div.survey h3 {
+  margin-left: 4px;
 }
 
 div.header h3 a:hover {
