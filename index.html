@@ -8,7 +8,7 @@
       $(document).ready(function() {
         window.nav = $('.nav').offset().top;
 
-        ['home', 'codes', 'about', 'skills', 'contact'].forEach(function(section) {
+        ['home_nav', 'codes_nav', 'about_nav', 'skills_nav', 'contact_nav'].forEach(function(section) {
           debugger
           $('span#' + section).click(function(){
             $('html, body').animate({
@@ -44,27 +44,27 @@
         [RESUME]
       </h3>
       <div class="nav">
-        <span id="home" href="#home">
+        <span id="home_nav" href="#home">
           <h3 class="light">
             HOME
           </h3>
         </span>
-        <span id="codes" href="#codes">
+        <span id="codes_nav" href="#codes">
           <h3 class="light">
             CODE
           </h3>
         </span>
-        <span id="about" href="#about">
+        <span id="about_nav" href="#about">
           <h3 class="light">
             ABOUT
           </h3>
         </span>
-        <span id="skills" href="#skills">
+        <span id="skills_nav" href="#skills">
           <h3 class="light">
             SKILLS
           </h3>
         </span>
-        <span id="contact" href="#contact">
+        <span id="contact_nav" href="#contact">
           <h3 class="light">
             CONTACT
           </h3>
