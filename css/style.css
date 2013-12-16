@@ -79,20 +79,20 @@ div.fixed {
   position: fixed;
 }
 
-div.projects {
+div.codes {
   height: 1000px;
   background-color: #F0F0F0;
   text-align: center;
 }
 
-div.projects h2 {
+div.codes h2 {
   font-weight: 100;
   font-size: 48;
   padding-top: 100px;
   margin: 0px;
 }
 
-div.projects table {
+div.codes table {
   margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
@@ -100,7 +100,7 @@ div.projects table {
   width: 1248px;
 }
 
-div.projects td {
+div.codes td {
   width: 300px;
   height: 300px;
   margin: 50px;
@@ -108,7 +108,7 @@ div.projects td {
   text-align: center;
 }
 
-div.projects td img {
+div.codes td img {
   width: 250px;
   height: 250px;
   filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
@@ -120,7 +120,7 @@ div.projects td img {
   -o-transition: all 0.3s ease;
 }
 
-div.projects td img:hover {
+div.codes td img:hover {
   width: 265px;
   height: 265px;
   filter: none;
