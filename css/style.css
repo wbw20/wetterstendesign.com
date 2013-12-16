@@ -393,13 +393,13 @@ div.footer {
 
 div.main {
   background-color: #F0F0F0;
-  height: 1000px;
+  height: 900px;
   text-align: center;
+  padding-top: 100px;
 }
 
 div.main > h1 {
   font-weight: 100;
-  padding-top: 100px;
 }
 
 div.main h3 {
@@ -416,6 +416,11 @@ div.main h3 a {
 div.main h3 a:hover {
   text-decoration: none;
   color: #434343;
+}
+
+div.main .emoji {
+  height: 100px;
+  width: 100px;
 }
 
 /* bootstrap hacks */
