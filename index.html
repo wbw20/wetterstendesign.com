@@ -7,6 +7,16 @@
     <script type="text/javascript">
       $(document).ready(function() {
         window.nav = $('.nav').offset().top;
+
+        ['home', 'codes', 'about', 'skills', 'contact'].forEach(function(section) {
+          debugger
+          $('span#' + section).click(function(){
+            $('html, body').animate({
+              scrollTop: $( 'div' + $(this).attr('href') ).offset().top
+            }, 500);
+           return false;
+          });
+        });
       });
 
       $(window).scroll(function(e){ 
@@ -20,7 +30,7 @@
     </script>
   </head>
   <body>
-    <div class="header">
+    <div id="home" class="header">
       <h1>
         Hi, my name is <span class="green">Will</span>
       </h1>
@@ -34,34 +44,34 @@
         [RESUME]
       </h3>
       <div class="nav">
-        <span>
+        <span id="home" href="#home">
           <h3 class="light">
             HOME
           </h3>
         </span>
-        <span>
+        <span id="codes" href="#codes">
           <h3 class="light">
             CODE
           </h3>
         </span>
-        <span>
+        <span id="about" href="#about">
           <h3 class="light">
             ABOUT
           </h3>
         </span>
-        <span>
+        <span id="skills" href="#skills">
           <h3 class="light">
             SKILLS
           </h3>
         </span>
-        <span>
+        <span id="contact" href="#contact">
           <h3 class="light">
             CONTACT
           </h3>
         </span>
       </div>
     </div>
-    <div class="codes">
+    <div id="codes" class="codes">
       <h2 class="green">
         CODE
       </h2>
@@ -126,7 +136,7 @@
         </tr>
       </table>
     </div>
-    <div class="about">
+    <div id="about" class="about">
       <h2 class="light">
         ABOUT
       </h2>
@@ -140,7 +150,7 @@
         </h3>
       </div>
     </div>
-    <div class="skills">
+    <div id="skills" class="skills">
       <h2 class="green">
         SKILLS
       </h2>
@@ -310,7 +320,7 @@
         </div>
       </div>
     </div>
-    <div class="contact">
+    <div id="contact" class="contact">
       <h2 class="light">
         CONTACT
       </h2>
