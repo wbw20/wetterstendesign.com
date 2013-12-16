@@ -423,6 +423,10 @@ div.main .emoji {
   width: 100px;
 }
 
+#snipit {
+  width: 700px;
+}
+
 /* bootstrap hacks */
 
 .input-group {
