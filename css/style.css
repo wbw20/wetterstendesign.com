@@ -389,6 +389,13 @@ div.footer {
   color: #78A300;
 }
 
+/* code pages */
+
+div.main {
+  background-color: #F0F0F0;
+  height: 1000px;
+}
+
 /* bootstrap hacks */
 
 .input-group {
